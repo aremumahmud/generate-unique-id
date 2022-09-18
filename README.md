@@ -1,7 +1,7 @@
 # generate-unique-id
 a module for generating randowm unique id
 
-##generating an id
+## generating an id
 
 ```
 const GRI = require('generate-unique-id')

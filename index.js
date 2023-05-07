@@ -26,9 +26,9 @@ class generate_random_id {
             char = rnd_type[random(rnd_type.length)]
             result_id.push(char)
         }
-        process.nextTick(()=>{
+       return callback ? process.nextTick(()=>{
              callback(result_id.join(''))
-        })
+        }) : result_id.join('')
        
 
     }
